@@ -1,0 +1,9 @@
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\bin\Debug\ppe.exe.config
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\bin\Debug\ppe.exe
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\bin\Debug\ppe.pdb
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\obj\Debug\ppe.csprojAssemblyReference.cache
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\obj\Debug\ppe.home.resources
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\obj\Debug\ppe.Properties.Resources.resources
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\obj\Debug\ppe.csproj.GenerateResource.cache
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\obj\Debug\ppe.exe
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\obj\Debug\ppe.pdb
