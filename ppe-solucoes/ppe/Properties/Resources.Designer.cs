@@ -83,6 +83,16 @@ namespace ppe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_pequena {
+            get {
+                object obj = ResourceManager.GetObject("logo-pequena", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_PPE {
             get {
                 object obj = ResourceManager.GetObject("logo-PPE", resourceCulture);
