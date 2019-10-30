@@ -39,17 +39,22 @@ namespace ppe
 
         private void btn_entrar_Click(object sender, EventArgs e)
         {
-
+            /*
             string username = email_login.Text;
             string password = textBox1.Text;
 
-            if (username == "picorest@gmail.com" && password == "123123")
-            {
+            if (username == "didocokurt@gmail.com" && password == "123123")
+            {*/
                 this.Hide();
                 var form1 = new dashboard_home();
                 form1.Closed += (s, args) => this.Close();
                 form1.Show();
-            }
+
+
+
+
+
+          /*  }
             else if (!username.Contains("@"))
             {
                 MessageBox.Show("Digite um e-mail válido", "Aviso");
@@ -64,7 +69,7 @@ namespace ppe
             {
                 MessageBox.Show("Usuário ou senha incorreta", "Aviso");
                 email_login.Focus();
-            }
+            }*/
 
 
         }
@@ -82,6 +87,22 @@ namespace ppe
         private void home_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            var criar_conta = new criar_contat();
+            criar_conta.Closed += (s, args) => this.Close();
+            criar_conta.Show();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            var criar_conta = new criar_contat();
+            criar_conta.Closed += (s, args) => this.Close();
+            criar_conta.Show();
         }
     }
 }

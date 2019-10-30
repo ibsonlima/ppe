@@ -27,3 +27,6 @@ C:\Users\fr041914\Downloads\ppe\ppe-solucoes\ppe\obj\Debug\ppe.dashboard_home.re
 C:\Users\fr041914\Downloads\ppe\ppe-solucoes\ppe\obj\Debug\ppe.csproj.GenerateResource.cache
 C:\Users\fr041914\Downloads\ppe\ppe-solucoes\ppe\obj\Debug\ppe.exe
 C:\Users\fr041914\Downloads\ppe\ppe-solucoes\ppe\obj\Debug\ppe.pdb
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\obj\Debug\ppe.dashboard_home.resources
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\obj\Debug\ppe.criar_contat.resources
+C:\Users\fr041914\Desktop\ppe\ppe-solucoes\ppe\obj\Debug\ppe.Component1.resources

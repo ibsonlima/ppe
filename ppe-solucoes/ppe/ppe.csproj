@@ -46,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Component1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component1.Designer.cs">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="componetes.cs" />
+    <Compile Include="criar_contat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="criar_contat.Designer.cs">
+      <DependentUpon>criar_contat.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +73,12 @@
     <Compile Include="dashboard_home.Designer.cs">
       <DependentUpon>dashboard_home.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Component1.resx">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="criar_contat.resx">
+      <DependentUpon>criar_contat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>

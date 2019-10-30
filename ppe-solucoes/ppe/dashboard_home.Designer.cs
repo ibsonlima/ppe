@@ -39,9 +39,15 @@
             this.caraiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teste01ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.div_deshboard_trilhas = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.div_deshboard_simulado = new System.Windows.Forms.Panel();
+            this.simulado = new System.Windows.Forms.Label();
+            this.trilhas = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
+            this.div_deshboard_trilhas.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -59,6 +65,8 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.trilhas);
+            this.panel1.Controls.Add(this.simulado);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.aluno);
             this.panel1.Controls.Add(this.label1);
@@ -77,6 +85,7 @@
             this.label2.Size = new System.Drawing.Size(83, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "Dashboard";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // aluno
             // 
@@ -136,12 +145,64 @@
             this.toolStripMenuItem2.Size = new System.Drawing.Size(111, 22);
             this.toolStripMenuItem2.Text = "02";
             // 
+            // div_deshboard_trilhas
+            // 
+            this.div_deshboard_trilhas.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.div_deshboard_trilhas.Controls.Add(this.textBox1);
+            this.div_deshboard_trilhas.Location = new System.Drawing.Point(296, 12);
+            this.div_deshboard_trilhas.Name = "div_deshboard_trilhas";
+            this.div_deshboard_trilhas.Size = new System.Drawing.Size(1000, 520);
+            this.div_deshboard_trilhas.TabIndex = 2;
+            this.div_deshboard_trilhas.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(69, 66);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "show";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // div_deshboard_simulado
+            // 
+            this.div_deshboard_simulado.BackColor = System.Drawing.SystemColors.InfoText;
+            this.div_deshboard_simulado.Location = new System.Drawing.Point(286, 165);
+            this.div_deshboard_simulado.Name = "div_deshboard_simulado";
+            this.div_deshboard_simulado.Size = new System.Drawing.Size(1000, 520);
+            this.div_deshboard_simulado.TabIndex = 1;
+            this.div_deshboard_simulado.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
+            // 
+            // simulado
+            // 
+            this.simulado.AutoSize = true;
+            this.simulado.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
+            this.simulado.Location = new System.Drawing.Point(14, 291);
+            this.simulado.Name = "simulado";
+            this.simulado.Size = new System.Drawing.Size(79, 19);
+            this.simulado.TabIndex = 5;
+            this.simulado.Text = "Simulados";
+            this.simulado.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // trilhas
+            // 
+            this.trilhas.AutoSize = true;
+            this.trilhas.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
+            this.trilhas.Location = new System.Drawing.Point(14, 263);
+            this.trilhas.Name = "trilhas";
+            this.trilhas.Size = new System.Drawing.Size(53, 19);
+            this.trilhas.TabIndex = 6;
+            this.trilhas.Text = "Thihas";
+            this.trilhas.Click += new System.EventHandler(this.trilhas_Click);
+            // 
             // dashboard_home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(1350, 697);
+            this.Controls.Add(this.div_deshboard_simulado);
+            this.Controls.Add(this.div_deshboard_trilhas);
             this.Controls.Add(this.panel1);
             this.Name = "dashboard_home";
             this.Text = "Dashboard bem vendo ao Programa Preparatorio para o Encceja";
@@ -149,6 +210,8 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.contextMenuStrip1.ResumeLayout(false);
+            this.div_deshboard_trilhas.ResumeLayout(false);
+            this.div_deshboard_trilhas.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -165,5 +228,10 @@
         private System.Windows.Forms.ToolStripMenuItem caraiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem teste01ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.Panel div_deshboard_trilhas;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel div_deshboard_simulado;
+        private System.Windows.Forms.Label trilhas;
+        private System.Windows.Forms.Label simulado;
     }
 }
